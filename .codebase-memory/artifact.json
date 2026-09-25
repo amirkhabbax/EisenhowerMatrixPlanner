@@ -1,0 +1,11 @@
+{
+    "schema_version": 2,
+    "commit": "c035b01bf6ba71f4430d82491fdf2016c6896450",
+    "indexed_at": "2026-09-24T14:18:04Z",
+    "project": "E-repos-EisenhowerMatrixPlanner",
+    "nodes": 87,
+    "edges": 106,
+    "original_size": 2293760,
+    "compressed_size": 57170,
+    "compression_level": 3
+}
