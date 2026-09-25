@@ -5,9 +5,9 @@ export type Quadrant = 'Q1' | 'Q2' | 'Q3' | 'Q4';
 export function determineQuadrant(task: Task): Quadrant {
   const { importance, urgency } = task;
 
-  if (importance >= 6 && urgency >= 6) return 'Q1';
-  if (importance >= 6 && urgency < 6) return 'Q2';
-  if (importance < 6 && urgency >= 6) return 'Q3';
+  if (importance >= 0 && urgency >= 0) return 'Q1';
+  if (importance >= 0 && urgency < 0) return 'Q2';
+  if (importance < 0 && urgency >= 0) return 'Q3';
 
   return 'Q4';
 }
